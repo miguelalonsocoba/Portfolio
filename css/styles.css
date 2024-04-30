@@ -11,7 +11,7 @@ body {
     overflow-x: hidden;
 }
 
-.wrapper {
+.wrapper, .portfolio {
     width: 100vw;
     height: 100vh;
     background-color: #191c32;
@@ -131,4 +131,10 @@ h1 span {
 .about p {
     margin-bottom: 1em;   
     word-spacing: 2px;
+}
+
+.portfolio-heading {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
 }
